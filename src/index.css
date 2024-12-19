@@ -1,0 +1,53 @@
+/* Yazı stilini ve hizalamasını ayarlayın */
+.write {
+    font-size: 24px;
+    /* Yazı boyutu */
+    font-weight: bold;
+    /* Kalın yazı stili */
+    text-align: center;
+    /* Ortala */
+    margin-bottom: 20px;
+    /* Alt boşluk */
+}
+
+/* Buton kapsayıcı stilini ayarlayın */
+.buton {
+    display: flex;
+    /* Yan yana yerleşim */
+    justify-content: center;
+    /* Ortala */
+    gap: 10px;
+    /* Butonlar arası boşluk */
+    margin-top: 10px;
+    /* Üst boşluk */
+}
+
+/* Butonların stilleri */
+.buton button {
+    background-color: #007BFF;
+    /* Mavi buton rengi */
+    color: white;
+    /* Yazı rengi beyaz */
+    border: none;
+    /* Kenarlık yok */
+    padding: 10px 20px;
+    /* İç boşluk */
+    font-size: 16px;
+    /* Yazı boyutu */
+    border-radius: 5px;
+    /* Kenarları yuvarla */
+    cursor: pointer;
+    /* Tıklanabilir işaretçi */
+    transition: background-color 0.3s ease;
+    /* Renk değişimi animasyonu */
+}
+
+.buton button:hover {
+    background-color: #0056b3;
+    /* Hover durumunda daha koyu mavi */
+}
+
+.buton button:active {
+    background-color: #003f7f;
+    /* Tıklanma sırasında daha koyu mavi */
+}
