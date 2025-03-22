@@ -4,6 +4,6 @@ Redux Toolkit is the official, recommended way to manage state in Redux. It simp
 
 **Why Use Redux Toolkit ?**
 
-* Reduces complexity.
-* Provides built-in best practices.
+* Reduces complexity
+* Provides built-in best practices
 * Makes Redux easier
